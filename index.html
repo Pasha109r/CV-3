@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Filipovich Pavel</title>
+</head>
+<body>
+	<div class="wraper__pages">
+		<header class="header__contener">
+			<div class="header__content">
+				<h1>Filipovich Pavel</h1>
+			</div>
+			<div class="wraper__nav">
+				<nav class="header__menu"> 
+					<input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+    				<label for="burger-checkbox" class="burger"></label>
+					<ul class="link__item">
+						<li><a href="#aboutMe" class="menu_item">About me</a></li>
+						<li><a href="#skills" class="menu_item">Skills</a></li>
+						<li><a href="#education" class="menu_item">Education</a></li>
+						<li><a href="#codeExample" class="menu_item">Code example</a></li>
+						<li><a href="#contacts" class="menu_item">Contacts</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main_contet">
+			<section class="left_column">
+				<div class="content_img">
+					<figure>
+						<img class="img_item" src="/img/foto/myFoto2.jpg" alt="I">
+						<figcaption>beginner front-end developer</figcaption>
+					</figure>
+				</div>
+				<div class="content_skills" id="skills">
+					<h2>Skills</h2>
+					<ul class="skills_item">
+						<li class="item_html">HTML</li>
+						<li class="item_css">CSS</li>
+						<li class="item_scss">SCSS</li>
+						<li class="item_git">GIT</li>
+						<li class="item_figma">FIGMA</li>
+						<li class="item_react">REACT Basic</li>
+						<li class="item_js">JAVASCRIPT</li>
+						<li class="item_english">Level A2</li>
+					</ul>
+				</div>
+				<div class="content_contacts" id="contacts">
+					<h2>Contacts</h2>
+					<address>
+						<ul class="content_items">
+							<li class="content_local">Location: Minsk, Belarus</li>
+							<li class="content_phone">+375 29 390-59-75</li>
+							<li class="content_mail">filipave@gmail.com</li>
+							
+						</ul>
+					</address>
+				</div>
+			</section>
+			<section class="right_column">
+				<div class="content_aboutMe" id="aboutMe">
+					<h2>About me</h2>
+					<p>I really want to change my profession to a more interesting one, in which there is no limit to the development and improvement of my professional and creative skills. Which will allow you to constantly develop, learn new things, communicate with interesting people.</p>
+				</div>
+				<div class="content_education" id="education">
+					<h2>Education</h2>
+					<dl>
+						<dt>Primary school number 96</dt>
+						<dt>Secondary school number 158</dt>
+						<dt>MGPT Electronics colege</dt>
+						<dd>equipment adjuster, radio equipment, KIP&A </dd>
+						<dt>BIP — University of Law and social-information technologies</dt>
+						<dd>Lawyer</dd>
+					</dl>
+
+				</div>
+				<div class="content_cod" id="codeExample">
+					<h2>Coding</h2>
+					<p>This is the function rotation of the roulette casino checks whether the bet is reporting what number and color fell, it cleans these rates </p>
+					<pre>
+						<code class="code_item">
+							spin: function () {
+								if (this.bet.size === 0) {
+									console.warn('make bet!');
+									return;
+								},
+						
+								let result = this.get();
+						
+								console.info('rolled' + ' ' + result.number + ' ' + this.color[result.color]);
+						
+								this._check(result);
+						
+								this.bet.clear();
+							},
+						</code>
+					</pre>
+				</div>
+			</section>
+			
+			
+		</main>
+		<footer>
+			<div class="footer_wraper">
+				<div class="link_git">
+					<a href="https://github.com/Pasha109r" target="_blank">
+						<img class="footer_icons" src="/svg/github-svgrepo-com.svg" alt="git"></a>
+				</div>
+				<div class="link__intagram">
+					<a href="https://www.instagram.com/bingo_baker_?igsh=NXVrYzI4NnpmNHAy" target="_blank">
+						<img class="footer_icons" src="/svg/instagram-1-svgrepo-com.svg" alt="insta"></a>
+				</div>
+				<div class="data">
+					<time >2024</time>
+				</div>
+				<div class="link__rsschol">
+					<a href="https://rs.school/courses/javascript-ru" target="_blank">
+						<img class="footer_icons" src="/svg/rs-school-logo.svg" alt="rsschool"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	
+</body>
+</html>
