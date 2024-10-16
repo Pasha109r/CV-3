@@ -159,34 +159,34 @@ figcaption{
 }
 
 .item_html {
-	background: url(/svg/html-5-logo-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/html-5-logo-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 	
 }
 .item_css {
-	background: url(/svg/css-3-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/css-3-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 }
 .item_scss {
-	background: url(/svg/scss2-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/scss2-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 }
 .item_git {
-	background: url(/svg/github-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/github-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 }
 .item_figma {
-	background: url(/svg/figma-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/figma-svgrepo-com.svg) left / auto 100% no-repeat;
 }
 .item_react {
-	background: url(/svg/react-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/react-svgrepo-com.svg) left / auto 100% no-repeat;
 }
 .item_js {
-	background: url(/svg/js-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/js-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 }
 .item_english {
-	background: url(/svg/england-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/england-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 }
 address{
@@ -197,17 +197,17 @@ address{
 	list-style: none;
 }
 .content_local {
-	background: url(/svg/gps-location-map-2-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/gps-location-map-2-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 }
 
 .content_phone {
-	background: url(/svg/phone-svgrepo-com.svg) left / auto 100% no-repeat ;
+	background: url(./svg/phone-svgrepo-com.svg) left / auto 100% no-repeat ;
 	
 }
 
 .content_mail {
-	background: url(/svg/gmail-svgrepo-com.svg) left / auto 100% no-repeat;
+	background: url(./svg/gmail-svgrepo-com.svg) left / auto 100% no-repeat;
 	
 }
 .left_column li{
@@ -216,15 +216,15 @@ address{
 }
 
 .content_aboutMe h2{
-	background: url(/svg/man-svgrepo-com.svg) left / auto 100% no-repeat ;
+	background: url(./svg/man-svgrepo-com.svg) left / auto 100% no-repeat ;
 	background-color: #f9e322;
 }
 .content_education h2 {
-	background: url(/svg/education-graduation-learning-school-study-svgrepo-com.svg) left / auto 100% no-repeat ;
+	background: url(./svg/education-graduation-learning-school-study-svgrepo-com.svg) left / auto 100% no-repeat ;
 	background-color: #f9e322;
 }
 .content_cod h2 {
-	background: url(/svg/code-svgrepo-com.svg) left / auto 100% no-repeat ;
+	background: url(./svg/code-svgrepo-com.svg) left / auto 100% no-repeat ;
 	background-color: #f9e322;
 }
 .code_item{
