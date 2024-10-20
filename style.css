@@ -300,7 +300,7 @@ b{
 	}
 	.header__content {
 		width: 30%;
-		grid-area: cotent;
+		text-align: center;
 	}
 	h1{
 		color: white;
