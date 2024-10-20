@@ -81,19 +81,19 @@
 					<p>This is the function rotation of the roulette casino checks whether the bet is reporting what number and color fell, it cleans these rates </p>
 					<pre>
 						<code class="code_item">
-							spin: function () {
+							<b>spin:</b> <i>function</i> () {
 								if (this.bet.size === 0) {
 									console.warn('make bet!');
-									return;
+									<mark>return;</mark>
 								},
 						
-								let result = this.get();
+								<b>let</b> result = <b>this</b>.get();
 						
-								console.info('rolled' + ' ' + result.number + ' ' + this.color[result.color]);
+								console.info('rolled' + ' ' + result.number + ' ' + <b>this</b>.color[result.color]);
 						
-								this._check(result);
+								<b>this</b>._check(result);
 						
-								this.bet.clear();
+								<b>this</b>.bet.clear();
 							},
 						</code>
 					</pre>
