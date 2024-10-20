@@ -10,7 +10,7 @@ body{
 	display: flex;
 	flex-direction: column;	
 	max-width: 1024px;
-	border: 2px solid greenyellow ;
+	
 	margin: 0 auto;
 	font-size: 14px;
 	background-color: rgb(91 70 133);
@@ -463,7 +463,7 @@ b{
 		display: flex;
 		flex-direction: column;	
 		max-width: 1024px;
-		border: 2px solid greenyellow ;
+		
 		margin: 0 auto;
 		font-size: 14px;
 		background-color: rgb(91 70 133);
